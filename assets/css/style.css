@@ -1,0 +1,213 @@
+    head {
+        color: white;
+    }
+    
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        background-image: linear-gradient(to right bottom, #164A41, #4D774E, #9DC88D);
+        color: white;
+        position: relative;
+        font-family: 'Koulen', cursive;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .post-date {
+        padding: 4px;
+        margin: 3px 0;
+        display: block;
+    }
+    
+    .post-thumb {
+        width: 100%;
+    }
+    
+    .imgg {
+        width: 30%;
+    }
+    
+    .home-img {
+        position: relative;
+        margin-top: 25%;
+        width: 100%;
+        height: auto;
+        padding-left: 69%;
+    }
+    
+    .login {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 150;
+    }
+    
+    .help-text a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .pagination-links {
+        margin: 30px 0;
+    }
+    
+    .pagination-links strong {
+        padding: 8px 13px;
+        margin: 5px;
+        background: #f4f4f4;
+        border: 1px #ccc solid;
+    }
+    
+    a.pagination-link {
+        padding: 8px 13px;
+        margin: 5px;
+        background: #f4f4f4;
+        border: 1px #ccc solid;
+    }
+    
+    .cat-delete {
+        display: inline-flex;
+    }
+    
+    .emp-profile {
+        padding: 3%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 0.5rem;
+        background: #9dc88d;
+    }
+    
+    .profile-img {
+        text-align: center;
+    }
+    
+    .profile-img img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .profile-tab p {
+        color: #fff;
+    }
+    
+    .profile-tab {
+        margin-top: -40%;
+    }
+    
+    .alert-custom {
+        background-color: #f1b24a;
+        color: #fff;
+    }
+    
+    .list-custom {
+        background-color: #9dc88d;
+        color: #fff;
+    }
+    
+    .list-custom a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .button-custom {
+        color: #fff;
+        background-color: #f1b24a;
+        border: none;
+        border-radius: 10%;
+    }
+    
+    .button-custom:hover {
+        background-color: #f0a426;
+        border-radius: 10%;
+    }
+    
+    img {
+        border-radius: 10%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .slang {
+        padding-left: -10%;
+        margin-top: -50%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-right: 55%;
+        font-size: xx-large;
+    }
+    
+    #wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        background: linear-gradient(to left top, #9DC88D 0%, #fff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 75px;
+    }
+    
+    .comments-custom {
+        background: #fff;
+    }
+    
+    .image {
+        display: flex;
+        align-items: center;
+    }
+    
+    .post-body {
+        padding: 10px;
+    }
+    
+    .allcards {
+        margin-left: 10%;
+        margin-top: 5%;
+        text-align: center;
+        position: absolute;
+    }
+    
+    .card {
+        position: flex;
+        padding: 10px;
+        margin-left: 10%;
+        border-radius: 10%;
+        float: left;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 33%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        background-color: transparent;
+    }
+    
+    .title {
+        color: #ffffff;
+        font-size: 18px;
+    }
+    
+    .lnk {
+        text-decoration: none;
+        font-size: 22px;
+        color: #f1b24a;
+    }
+    
+    .con:hover,
+    .lnk:hover {
+        opacity: 0.7;
+    }
+    
+    .ikoni {
+        margin-top: 10%;
+        margin-left: -10%;
+        margin-bottom: 10%;
+    }
+    
+    .zologo {
+        float: right;
+    }

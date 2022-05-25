@@ -1,0 +1,254 @@
+// Variables
+$red: #f1b24a;
+;
+$lightBlack: #333;
+$darkGrey: #a9a9a9;
+$ghostWhite: #f8f8ff;
+$lightGrey: #d3d3d3;
+// Mixins
+@mixin transition($property) {
+    transition: $property .25s;
+}
+
+
+/*Typography*/
+
+html {
+    font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+
+/*Layout*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.line {
+    float: left;
+    width: 100%;
+    border-top: .25em solid $lightBlack;
+}
+
+.wrapper {
+    margin: auto;
+    width: 60em;
+    /*960px*/
+    //min-height: 100%;
+}
+
+header,
+nav,
+section,
+footer {
+    float: left;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    transition: color .25s;
+}
+
+
+/*Navigation*/
+
+
+/*Sections*/
+
+section {
+    margin: 1em 0;
+}
+
+section h1 {
+    text-transform: uppercase;
+}
+
+hr {
+    border-color: $lightGrey;
+    border-style: dashed;
+}
+
+.vertical {
+    width: 0;
+    height: 10px;
+}
+
+
+/*Intro*/
+
+.sec-intro {
+    position: relative;
+}
+
+.sec-intro img {
+    width: 100%;
+    align-items: center;
+}
+
+.sec-intro h1 {
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+
+/*Boxes*/
+
+.box {
+    float: left;
+    padding: 1.5em 1em;
+    width: 25%;
+    height: 400px;
+    color: #fff;
+}
+
+.box h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.box p {
+    margin-top: 0.5em;
+    height: 6em;
+    color: #fff;
+    font-size: large;
+}
+
+
+/*Events*/
+
+.sec-events>h1 {
+    margin-top: 1em;
+}
+
+.sec-events article {
+    float: left;
+    padding: 0 .25em;
+    width: 25%;
+    text-align: justify;
+}
+
+.sec-events article h1,
+.sec-events article p {
+    display: block;
+    margin: .5em 0;
+    padding: .25em 1em;
+    font-size: 110%;
+}
+
+.sec-events article a {
+    float: right;
+    padding-right: 1em;
+}
+
+.sec-events article h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Projects*/
+
+.sec-projects {
+    width: 60%;
+}
+
+.sec-projects>h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.sec-projects article {
+    padding: .5em 0;
+    width: 100%;
+}
+
+.sec-projects article h1,
+.sec-projects article p {
+    font-size: 110%;
+}
+
+.sec-projects article h1 {
+    font-weight: bold;
+}
+
+.sec-projects article p {
+    margin: .5em .5em .5em 0;
+    text-align: justify;
+}
+
+.sec-projects p a {
+    float: right;
+}
+
+.sec-projects button {
+    position: relative;
+    left: 80%;
+}
+
+
+/*Standards*/
+
+.sec-standards {
+    width: 40%;
+}
+
+.sec-standards>h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.sec-standards article {
+    float: left;
+    padding: .5em 1em;
+    width: 50%;
+    text-align: justify;
+}
+
+.sec-standards article:last-child {
+    padding: .5em 0;
+}
+
+.sec-standards article h1 {
+    text-align: center;
+}
+
+.headerimport {
+    text-align: center;
+    font-size: x-small;
+    padding-left: 40;
+}
